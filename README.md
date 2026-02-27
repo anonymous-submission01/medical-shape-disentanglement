@@ -202,4 +202,4 @@ Evaluation compares reconstructions against surface samples from the same split.
 Code is adapted from the following repositories:
 
 - DeepSDF: https://github.com/facebookresearch/DeepSDF
-- Deep3DComp: https://github.com/YanWei/Deep3DComp
+- Deep3DComp: https://github.com/philippwulff/Deep3DComp
