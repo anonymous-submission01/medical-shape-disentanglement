@@ -54,7 +54,7 @@ make -j
 
 # All Together
 
-Or, alltogether (thanks to [Daniele Grattarola
+Or, alltogether (thanks to [XXXX
 ](https://github.com/facebookresearch/DeepSDF/issues/88#issuecomment-1090011009)):
 
 ```
