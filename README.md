@@ -98,6 +98,15 @@ Each experiment directory is self-contained: specs + checkpoints + reconstructio
 
 The only file required to begin an experiment is `specs.json`, which sets parameters, architecture, and data paths.
 
+## Prerequisite
+
+
+Create the conda environment from [`environment.yml`](environment.yml):
+
+```
+conda env create -f environment.yml
+```
+
 ## Preprocessing
 
 The preprocessing code is in C++ and requires:
@@ -141,12 +150,6 @@ Surface samples are used only for evaluation metrics and visualization, not for 
 Generate mesh `.ply` files from segmentation files:
 
 - [`utils/batch_process_to_ply.py`](utils/batch_process_to_ply.py) converts segmentation files into mesh `.ply` outputs in batch.
-
-Before training, create the conda environment from [`environment.yml`](environment.yml):
-
-```
-conda env create -f environment.yml
-```
 
 ## Training
 
