@@ -1,4 +1,4 @@
-# Semi-supervised Disentanglement in Medical Shapes
+# Self-supervised Disentanglement in Medical Shapes
 
 DeepSDF-based pipeline for learning an SDF auto-decoder and a second-stage MLP‑VAE over latent codes.
 
