@@ -1,0 +1,94 @@
+bin/*
+build/*
+data/*
+outputs/*
+.vscode
+*.csv
+*.obj
+*.pyl
+*.ply
+**/3d_metrics
+.DS_store
+.idea
+*.npz
+*.npy
+*.pdf
+*.jpg
+*.png
+!resources/overall_arch.png
+!resources/interp_preview.png
+!resources/interpolation_visualization.png
+!resources/interpolation_visualization_1.png
+!resources/interp_video_thumb.png
+*.pth
+*.pt
+
+# Log files, reconstructions
+**/LatentCodes
+**/ModelParameters
+**/OptimizerParameters
+**/Reconstructions
+**/TensorBoard
+**/ReconstructionsTrain
+**/ReconstructionsTest
+**/Evaluation
+Logs.pth
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# Parameter Tuning
+examples/CALSNIC_control_L/optuna_reconstruction_search/
+
+# Local experiment folders
+examples/ADNI/MLP_VAE_SDF_disentangle_real_only_and_subset/
+examples/ADNI/MLP_VAE_SDF_disentangle_pseudo_and_subset/
