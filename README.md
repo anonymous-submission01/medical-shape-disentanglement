@@ -192,14 +192,6 @@ python reconstruct.py -e examples/<experiment_folder> -c <epoch> --split example
 
 Reconstruction uses a trained checkpoint to produce meshes for the split.
 
-## Evaluation
-
-```
-python evaluate.py -e examples/<experiment_folder> -c <epoch> -d [path to sdf data folder] -s examples/splits/<split>.json
-```
-
-Evaluation compares reconstructions against surface samples from the same split.
-
 ## Repository
 
 Code is adapted from the following repositories:
