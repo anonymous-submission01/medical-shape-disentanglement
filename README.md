@@ -196,3 +196,10 @@ python evaluate.py -e examples/<experiment_folder> -c <epoch> -d [path to sdf da
 ```
 
 Evaluation compares reconstructions against surface samples from the same split.
+
+## Repository
+
+Code is adapted from the following repositories:
+
+- DeepSDF: https://github.com/facebookresearch/DeepSDF
+- Deep3DComp: https://github.com/YanWei/Deep3DComp
